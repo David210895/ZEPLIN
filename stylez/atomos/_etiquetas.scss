@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.label {
+    color: black;
+    background: white;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.coverpage {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 24px;
+    & .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 33.33%;
+        padding-left: 10px;
+    }
+}

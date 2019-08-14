@@ -1,0 +1,10 @@
+@import "../stylez/reset";
+@import "../atomos/etiquetas";
+@import "../moleculas/navegacion";
+
+ul{
+    &.container{
+        height: 40px;
+        background: #3a1045;
+    }
+}

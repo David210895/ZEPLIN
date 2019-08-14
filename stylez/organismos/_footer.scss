@@ -1,0 +1,15 @@
+
+/*footer*/
+footer {
+    background-color: #62346f;
+    & h2 {
+        font-size: 2.8rem;
+      }
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 76px;
+      }
+  }
+  

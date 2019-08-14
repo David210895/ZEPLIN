@@ -1,0 +1,34 @@
+@import "../stylez/reset";
+@import "../atomos/etiquetas";
+@import "../moleculas/navegacion";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+header {
+    background-color: #62346f;
+    & .logo {
+        font-size: 4.2rem;
+        font-weight: bold;
+        margin-right: 8.8rem;
+    }
+    & .container {
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .header-left {
+        display: flex;
+        align-items: center;
+    }
+    & .list-share {
+        display: flex;
+        font-size: 1.8rem;
+    }
+    & .list-share li {
+        margin-left: 2.0rem;
+    }
+}
